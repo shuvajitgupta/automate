@@ -53,7 +53,7 @@
         var socket = io();
     const btn = document.querySelector('#btn1');
     btn.addEventListener('click', (e) => {
-        socket.emit("chat message", 'relay1_on');
+        socket.emit("message", 'relay1_on');
     })
     </script>
   </body>
