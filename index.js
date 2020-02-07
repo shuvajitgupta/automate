@@ -1,28 +1,6 @@
 const express = require("express");
 const http = require("http");
 const WebSocket = require("ws");
-// const app = express();
-// const http = require("http").createServer(app);
-// const path = require("path");
-// const io = require("socket.io")(http);
-// const PORT = process.env.PORT || 81;
-
-// app.use(express.static(path.join(__dirname, "/index.html")));
-
-// app.get("*", (req, res) => {
-//   res.sendFile(__dirname + "/index.html");
-// });
-
-// io.on("connection", socket => {
-//   socket.on("message", msg => {
-//     console.log(msg);
-//   });
-// });
-
-// http.listen(PORT);
-// import * as express from "express";
-// import * as http from "http";
-// import * as WebSocket from "ws";
 
 const app = express();
 
