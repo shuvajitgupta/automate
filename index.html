@@ -44,17 +44,14 @@
     </style>
   </head>
   <body>
-    <ul id="messages"></ul>
-    <form action="">
     <button id="btn1">Relay 1</button>
-    <div id="content"></div>
     <script src="/socket.io/socket.io.js"></script>
     <script>
-        var socket = io();
-    const btn = document.querySelector('#btn1');
-    btn.addEventListener('click', (e) => {
-        socket.emit("message", 'relay1_on');
-    })
+      var socket = io();
+      const btn = document.querySelector("#btn1");
+      btn.addEventListener("click", e => {
+        socket.emit("message", "relay1_on");
+      });
     </script>
   </body>
 </html>
